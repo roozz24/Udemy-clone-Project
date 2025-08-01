@@ -14,7 +14,7 @@ A responsive and visually appealing clone of the Udemy homepage, built using **H
 
 ## 🚀 Visit Site
 
-🔗 [Click here to view the live site]
+🔗 [Click here to view the live site] https://roozz24.github.io/Udemy-clone-Project/
 
 ## 📁 Technologies Used
 
