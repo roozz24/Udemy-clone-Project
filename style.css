@@ -56,7 +56,7 @@
     color: rgb(0, 0, 0);
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 7.5px;
+    padding-bottom: 8.5px;
     
 }
 
@@ -213,7 +213,7 @@
 }
 
 .course-card {
-    width: 300px;
+    width: 350px;
 }
 
 .course-card:hover {
@@ -314,4 +314,5 @@
     left: 9%;
     top: 30%;
     border: black solid 2px;
+
 }
