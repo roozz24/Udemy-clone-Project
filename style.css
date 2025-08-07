@@ -2,7 +2,7 @@
     font-family: "Gabarito", sans-serif;
     margin: 0;
     padding: 0;
-   
+
 }
 
 .navbar {
@@ -57,7 +57,7 @@
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 8.5px;
-    
+
 }
 
 .navbar__s2 {
@@ -76,7 +76,9 @@
     background: transparent;
 }
 
-.navbar__s2:hover, .navbar__input:focus, .navbar__s2 input:hover {
+.navbar__s2:hover,
+.navbar__input:focus,
+.navbar__s2 input:hover {
     background-color: #F6F7F9;
     cursor: pointer;
 }
@@ -116,6 +118,10 @@
 .navbar__s3 i:hover {
     cursor: pointer;
     background-color: #EDE5F9;
+}
+
+.navbar__s4 {
+    display: none;
 }
 
 /* My Learning Popup */
@@ -218,7 +224,8 @@
 }
 
 .course-card {
-    width: 350px;
+    flex-grow: 1;
+    flex-basis: 20%;
 }
 
 .course-card:hover {
@@ -231,6 +238,7 @@
     justify-content: space-between;
     margin-top: 10px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .topics {
@@ -334,5 +342,35 @@
     100% {
         opacity: 1;
         transform: scale(1);
+    }
+}
+
+/* Media Queries */
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .course-card {
+        flex-basis: 40%;
+    }
+
+    .category {
+        display: none;
+    }
+
+    .navbar__s2, .navbar__s3 {
+        display: none;
+    }
+
+    .sale-image button {
+        display: none;
+    }
+
+    .navbar__s4 {
+        display: block;
     }
 }
