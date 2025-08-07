@@ -373,4 +373,8 @@
     .navbar__s4 {
         display: block;
     }
+
+    .recommended {
+        margin-top: 20px;
+    }
 }
