@@ -355,9 +355,9 @@
 
 @media screen and (max-width:600px) {
 
-.navbar {
-    padding-bottom: 3px;
-}
+    .navbar {
+        padding-bottom: 3px;
+    }
 
     .course-card {
         flex-basis: 40%;
@@ -381,7 +381,7 @@
     }
 }
 
-@media screen and(max-width:400px) {
+@media screen and (max-width:499px) {
 
     .recommended {
         margin-top: 50px;
