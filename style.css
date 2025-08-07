@@ -153,11 +153,16 @@
     padding: 10px;
     border: none;
     border-radius: 30px;
+    transition: 1s;
+    border: solid rgb(109, 40, 210) 0.5px;
 }
 
 .category p:hover {
-    background-color: #892DE1;
+    background-color: transparent;
     cursor: pointer;
+    transition: 1s;
+    color: black;
+    border: solid rgb(109, 40, 210) 0.5px;
 }
 
 .sale-image {
@@ -314,5 +319,20 @@
     left: 9%;
     top: 30%;
     border: black solid 2px;
+    opacity: 0;
+    animation-name: sale;
+    animation-duration: 2s;
+    animation-fill-mode: forwards
+}
 
+@keyframes sale {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
