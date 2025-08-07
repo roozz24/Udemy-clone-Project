@@ -362,7 +362,8 @@
         display: none;
     }
 
-    .navbar__s2, .navbar__s3 {
+    .navbar__s2,
+    .navbar__s3 {
         display: none;
     }
 
@@ -373,6 +374,9 @@
     .navbar__s4 {
         display: block;
     }
+}
+
+@media screen and(max-width:400px) {
 
     .recommended {
         margin-top: 50px;
