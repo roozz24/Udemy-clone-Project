@@ -56,7 +56,7 @@
     color: rgb(0, 0, 0);
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 7.5px;
+    padding-bottom: 6px;
 
 }
 
@@ -374,11 +374,7 @@
         display: block;
     }
 
-<<<<<<< HEAD
     .recommended {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
-=======
-}
->>>>>>> 5e6a7fba711ba0166e9b6b778d93d0a01c686e7e
