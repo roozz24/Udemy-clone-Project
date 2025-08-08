@@ -120,7 +120,7 @@
     background-color: #EDE5F9;
 }
 
-.navbar__s4 {
+.navbar__s5 {
     display: none;
 }
 
@@ -368,7 +368,8 @@
     }
 
     .navbar__s2,
-    .navbar__s3 {
+    .navbar__s3,
+    .navbar__s4 {
         display: none;
     }
 
@@ -376,7 +377,7 @@
         display: none;
     }
 
-    .navbar__s4 {
+    .navbar__s5 {
         display: block;
     }
 }
